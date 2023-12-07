@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <!--element specifies the base URL and/or target for all relative URLs in a page.-->
+      <base href="https://www.w3schools.com/" target="_blank">
+   
+  <!--defines the title of the document. The title must be text-only,
+     and it is shown in the browser's title bar or in the page's tab.-->
+       <title>My Site</title>
+    
+  <!--The <link> element defines the relationship 
+    between the current document and an external resource.
+    he <link> tag is most often used to link to external style sheets:-->    
+      <link rel="stylesheet" href="mystyle.css">
+
+  <!--defines the character encoding of the document. The character encoding
+     must be the same as the character encoding of the page.-->
+      <meta charset="UTF-8">  
+    
+  <!--Define the author of a page:-->
+     <meta name="author" content="John Doe">
+  
+  <!--Define keywords for search engines-->
+     <meta name="keywords" content="HTML, CSS, JavaScript">
+
+  <!--Define a description of your web page-->
+      <meta name="description" content="Free Web tutorials">
+
+  <!--Refresh document every 30 seconds-->
+      <meta http-equiv="refresh" content="30">
+
+  <!--Setting the viewport to make your website look good on all devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <!--The <script> element is used to define client-side JavaScripts.
+   The following JavaScript writes "Hello JavaScript!" into an HTML element with id="demo":-->
+      <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "Hello JavaScript!";
+        }
+        </script>
+
+  
+  <!--The <style> element is used to define style information for a single HTML page:-->
+     <style>
+      #hah:link, #hah:visited {
+      background-color: #f44336;
+      color: white;
+      padding: 15px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      }
+    
+    #hah:hover, #hah:active {
+      background-color: rgb(0, 255, 132);
+    }
+  
+  table, th, td {
+    border: 1px solid black;
+      border-radius: 10px;
+      border-style: double;
+    }
+
+     th, td {
+        background-color: #f60c0c94;
+        border-color: #96d498;
+     }
+
+
+     ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+#did {
+  width: 300px;
+  margin: auto;
+  background-color: #FFF4A3;
+}
+
+div.mycont {
+  width:100%;
+  overflow:auto;
+}
+div.mycont div {
+  width:33%;  
+  float:left;
+}
+
+
+#Inline {
+  width:30%;  
+  display:inline-block;
+}
+
+.city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+    </style>
+    
+      
+</head>
+    <body style="background-color:powderblue;">
+  <!--HEADINGS-->
+    <h1 style="background-color:tomato;" id="h1">Hello</h1>
+    <h2 style="text-align:center;">Hello</h2>
+    <h3>Hello</h3
+    <h4>Hello</h4>
+    <h5>Hello</h5>
+    <h6>Hello</h6>
+    <hr size="5" width="100%" color="red">
+ <!--PARAGRAPHS&STYLES-->
+    <p style="color: red;">This is<br> a paragraph.</p>
+    <p style="font-family:courier;">
+      This paragraph
+      contains         a lot of spaces
+      in the source         code,
+      but the        browser
+      ignores it.
+      </p>
+      <hr>
+     <pre style="font-size:200%;">
+        My Bonnie lies over the ocean.
+      
+        My Bonnie lies over the sea.
+      
+        My Bonnie lies over the ocean.
+      
+        Oh, bring back my Bonnie to me.
+     </pre>
+     <hr size="5" width="100%" color="red">
+ <!--FORMATTING--> 
+              <p><b>This text is bold</b></p>
+              <p><strong>This text is important!</strong></p>
+              <p><i>This text is italic</i></p>
+              <p><em>This text is emphasized.</em></p>
+              <p><small>This is some smaller text.</small></p>
+              <p><big>This is some bigger text.</big></p>
+              <p><u>This is some underlined text.</u></p>
+              <p>Do not forget to buy <mark>milk</mark> today.</p>
+              <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+              <p>This is <sup>superscript</sup> text.</p>
+              <p>This is <sub>subscript</sub> text.</p>
+              <hr size="5" width="100%" color="red">
+ <!--Quotation and Citation-->
+         <p>Here is a quote from WWF's website:</p>
+
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+         For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+        </blockquote>
+  
+        <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+        <address>
+          Written by John Doe.<br> 
+          Visit us at:<br>
+          Example.com<br>
+          Box 564, Disneyland<br>
+          USA
+          </address>
+
+          <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+          <bdo dir="rtl">This line will be written from right to left</bdo>
+          <hr size="5" width="100%" color="red">
+  <!--COLORS-->
+          <h1 style="border:4px solid rgb(71, 255, 71);">Hello World</h1>
+          <h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+     
+          <p style="color:DodgerBlue;">Lorem ipsum...</p>
+          <p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+          <h1 style="background-color:hsl(9, 100%, 64%);">Hello</h1>
+          <h1 style="background-color:rgba(255, 99, 71, 0.5);">Hello</h1>
+          <hr size="5" width="100%" color="red">
+  <!--CSS-->
+          
+        <!--
+           <p style="color:red;">A red paragraph.</p>
+          <head>
+          <style>
+              body {background-color: powderblue;}
+              h1   {color: blue;}
+              p    {color: red;}
+          </style>
+        </head>
+      
+         <head>
+             <link rel="stylesheet" href="styles.css">
+         </head>
+         -->
+  <!--LINKS-->
+        <a href="https://www.google.com/">Klick to google</a> <br>
+        <a href="https://www.w3schools.com/">Visit W3Schools.com!</a> <br>
+        <a href="https://www.w3schools.com/" target="_blank">blank</a><br>
+        <a href="https://www.w3schools.com/" target="_self">self</a><br>
+        <a href="https://www.w3schools.com/" target="_parent">parent</a><br>
+        <a href="https://www.w3schools.com/" target="_top">top</a><br>
+          <br>
+        <a href="https://www.google.com/">
+          <img src="/images/car.jpg" alt="HTML tutorial" style="width:42px;height:42px;">
+        </a>
+       <br>
+        <a href="mailto:ana.rofs79@gmail.com" id="hah">Send email</a>
+       <br><!--style in head-->
+       <button onclick="document.location='default.asp'">HTML Tutorial</button>
+       <a href="#h1">Jump to Head1</a>
+       <!--You can also add a link to a bookmark on another page:-->
+       <a href="First.html#ppp">Jump to Chapter 4</a>
+       <hr size="5" width="100%" color="red">
+  <!--IMAGES--> 
+       <img src="pic_tr" alt="Italian Trulli">
+       <br>
+       <img src="/images/car.jpg" width="200" alt="Italian Trulli">
+       <br>
+       <img src="/images/twitter-image.png" alt="Girl in a jacket" style="width:200px;height:175px;">
+       <br>
+       <img src="/images/FB_IMG_1662045691753.jpg" alt="Girl in a jacket" width="170" height="180">
+       <br>
+       <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+       <p><img src="/images/FB_IMG_1662045593473.jpg" alt="Smiley face" style="float:left;width:42px;height:42px;">
+        The image will float to the left of the text.</p>
+        <br>
+        <!--HTML Image Maps-->
+        <img src="/images/car.jpg" alt="Workplace" usemap="#workmap" width="100">
+
+        <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://www.google.com/">
+        </map>
+       <br>
+        <p style="background-image: url(/images/FB_IMG_1662045593473.jpg);"></p>
+      
+        <picture>
+          <source media="(min-width: 650px)" srcset="/images">
+          <source media="(min-width: 465px)" srcset="/images">
+          <img src="/images/twitter-image.png" style="width:auto;">
+        </picture>
+
+        <hr size="5" width="100%" color="red">
+  <!--How To Add a Favicon in HTML-->
+      <!--<head>
+        <title>My Page Title</title>
+        <link rel="icon" type="image/x-icon" href="/images/twitter-image.png">
+       </head> -->
+  <!--PAGE TITLE-->
+     <!--  <head>
+         <title>HTML Tutorial</title>
+      </head> -->
+  <!--HTML Tablets-->
+  <table>
+  <caption>Company employes</caption>
+    <tr>
+      <th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Alfreds Futterkiste</td>
+      <td>Maria Anders</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Centro comercial Moctezuma</td>
+      <td>Francisco Chang</td>
+      <td>Mexico</td>
+    </tr>
+  </table>
+
+    <!--
+    With the border-style property, you can set the appearance of the border.
+
+    The following values are allowed:
+    dotted     
+    dashed     
+    solid     
+    double     
+    groove     
+    ridge     
+    inset     
+    outset     
+    none     
+    hidden     
+     -->
+  
+
+<!--Unordered HTML List-->
+<ul style="list-style-type:square;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<!--Ordered HTML List-->
+<ol type="A">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<!--Definition List-->
+
+<dl>
+  <dt>Term 1</dt>
+  <dd>Definition 1</dd>
+  <dt>Term 2</dt>
+  <dd>Definition 2</dd>
+  <dt>Term 3</dt>
+  <dd>Definition 3</dd>
+</dl>
+
+  <ul id="hl">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+   </ul>
+   <hr size="5" width="100%" color="red">
+<!--HTML Block and Inline Elements-->
+   <p>Hello World</p>
+   <div>Hello World</div>
+     
+   <span>Hello World</span>  
+
+   <div style="background-color:black;color:white;padding:20px;">
+    <h2>London</h2>
+    <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </div>
+  
+  <p>My mother has <span style="color:blue;font-weight:bold;">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold;">dark green</span> eyes.</p>
+
+<!--HTML Div Element-->
+      Lorem Ipsum <div>I am a div</div> dolor sit amet.
+         <!--<div> as a container-->
+          <div style="background-color: #FFF4A3;">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London has over 13 million inhabitants.</p>
+          </div>
+
+          <div id="did">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London has over 13 million inhabitants.</p>
+          </div>
+          <hr size="5" width="100%" color="red">
+
+          <div style="background-color:#FFF4A3;">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London has over 13 million inhabitants.</p>
+          </div>
+          
+          <div style="background-color:#FFC0C7;">
+            <h2>Oslo</h2>
+            <p>Oslo is the capital city of Norway.</p>
+            <p>Oslo has over 600.000 inhabitants.</p>
+          </div>
+          
+          <div style="background-color:#D9EEE1;">
+            <h2>Rome</h2>
+            <p>Rome is the capital city of Italy.</p>
+            <p>Rome has almost 3 million inhabitants.</p>
+          </div>
+        
+          <hr size="5" width="100%" color="red">
+   
+          <div class="mycont">
+
+            <div style="background-color:#FFF4A3;">
+              <h2>London</h2>
+              <p>London is the capital city of England.</p>
+              <p>London has over 13 million inhabitants.</p>
+            </div>
+            
+            <div style="background-color:#FFC0C7;">
+              <h2>Oslo</h2>
+              <p>Oslo is the capital city of Norway.</p>
+              <p>Oslo has over 600.000 inhabitants.</p>
+            </div>
+            
+            <div style="background-color:#D9EEE1;">
+              <h2>Rome</h2>
+              <p>Rome is the capital city of Italy.</p>
+              <p>Rome has almost 3 million inhabitants.</p>
+            </div>
+          
+          </div>
+
+              <hr size="5" width="100%" color="red">
+      <div id="Inline">
+          <div style="background-color:#FFF4A3;">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London has over 13 million inhabitants.</p>
+          </div>
+          
+          <div style="background-color:#FFC0C7;">
+            <h2>Oslo</h2>
+            <p>Oslo is the capital city of Norway.</p>
+            <p>Oslo has over 600.000 inhabitants.</p>
+          </div>
+          
+          <div style="background-color:#D9EEE1;">
+            <h2>Rome</h2>
+            <p>Rome is the capital city of Italy.</p>
+            <p>Rome has almost 3 million inhabitants.</p>
+          </div>
+        </div>
+
+        <hr size="5" width="100%" color="red">
+
+    <!--HTML class Attribute-->  
+        <div class="city">
+            <h2>London</h2>
+            <p>London is the capital of England.</p>
+         </div>
+    
+        <div class="city">
+           <h2>Paris</h2>
+           <p>Paris is the capital of France.</p>
+        </div>
+    
+        <div class="city">
+          <h2>Tokyo</h2>
+          <p>Tokyo is the capital of Japan.</p>
+        </div> 
+
+
+                <hr size="5" width="100%" color="red">
+        
+    <!--HTML id Attribute-->
+
+        <!--
+             #myHeader {
+                 background-color: lightblue;
+                 color: black;
+                 padding: 40px;
+                 text-align: center;
+                }
+          </style>
+       </head>
+          <body>
+
+          <h1 id="myHeader">My Header</h1>
+        -->
+         
+        <hr size="5" width="100%" color="red">
+
+    <!--HTML Iframes-->
+             <!--An HTML iframe is used to display a web page within a web page.-->
+              
+             <iframe src="index.html" height="200" width="300" title="Iframe Example" style="border: none;">fgdfg</iframe>
+             <hr size="5" width="100%" color="red">
+             <iframe src="index.html" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+
+           <p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+
+
+             
+
+             
+
+
+</body>
+</html>
